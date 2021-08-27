@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgrey;
     background-color: white;
     height: 60px;
     display: flex;
