@@ -13,12 +13,12 @@
 </head>
 
 <body id="home">
-    <div class="modal">
+    <div id="mymodal" class="modal" style="display: none;">
         <div class="modalBox">
             <img src="./cpu2 2.jpg" alt="" width="200px">
             <div class="title">Title</div>
             <div class="subtitale">Subtitle</div>
-            <button>Button</button>
+            <button onclick="closemodal()" id="mybutton">Close</button>
         </div>
 
     </div>
@@ -41,9 +41,19 @@
                     </a>
                 </div>
             </nav>
-            <div>page</div>
+            <div onclick="openmodal()">open modal</div>
         </div>
     </div>
+
+    <script>
+        function openmodal() {
+            //console.log('open');
+            document.getElementById('mymodal').style.display = "flex";
+        }
+        function closemodal() {
+            document.getElementById('mymodal').style.display = "none";
+        }
+    </script>
 
 </body>
 
