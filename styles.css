@@ -3,7 +3,10 @@ p {
 }
 
 body {
-    background-color: whitesmoke;
+    background-image: url("./backimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     height: auto;
@@ -19,6 +22,7 @@ body {
 }
 
 header {
+    margin-top: 50px;
     border-bottom: 1px solid lightgrey;
     background-color: white;
     height: 60px;
