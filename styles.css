@@ -87,3 +87,12 @@ nav {
     align-items: center;
     flex-direction: column;
 }
+
+.modal .title {
+    margin-top: 10px;
+    font-size: 3vw;
+}
+
+.modal .subtitle {
+    font-size: 1.5vw;
+}
